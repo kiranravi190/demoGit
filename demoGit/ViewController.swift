@@ -17,7 +17,9 @@ class ViewController: UIViewController {
         print("branch1 commit")
 
         print("mster commit")
-    }
+
+        print("mster commit")
+}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
