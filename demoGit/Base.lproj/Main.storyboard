@@ -27,11 +27,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="branch2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qe-gd-Evk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1Qe-gd-Evk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Hu-dd-bta"/>
+                            <constraint firstAttribute="trailing" secondItem="1Qe-gd-Evk" secondAttribute="trailing" id="I9S-gO-roj"/>
                             <constraint firstItem="5oT-97-bwS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="klW-Aa-wLh"/>
                             <constraint firstItem="5oT-97-bwS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lsf-73-l0N"/>
+                            <constraint firstItem="1Qe-gd-Evk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ndj-bA-cVx"/>
                         </constraints>
                     </view>
                 </viewController>
